@@ -2,6 +2,10 @@ package com.rocktimer;
 
 import com.facebook.react.ReactActivity;
 
+// adding orientation package
+import android.content.Intent; // <--- import
+import android.content.res.Configuration; // <--- import
+
 public class MainActivity extends ReactActivity {
 
     /**
@@ -11,5 +15,14 @@ public class MainActivity extends ReactActivity {
     @Override
     protected String getMainComponentName() {
         return "RockTimer";
+    }
+
+    // Adding for orientation package
+    @Override
+    public void onConfigurationChanged(Configuration newConfig) {
+      super.onConfigurationChanged(newConfig);
+      Intent intent = new Intent("onConfigurationChanged");
+      intent.putExtra("newConfig", newConfig);
+      this.sendBroadcast(intent);
     }
 }

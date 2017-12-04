@@ -3,6 +3,8 @@ package com.rocktimer;
 import android.app.Application;
 
 import com.facebook.react.ReactApplication;
+import com.learnium.RNDeviceInfo.RNDeviceInfo;
+import com.github.yamill.orientation.OrientationPackage;
 import com.rusel.RCTBluetoothSerial.RCTBluetoothSerialPackage;
 import com.corbt.keepawake.KCKeepAwakePackage;
 import com.facebook.react.ReactNativeHost;
@@ -25,6 +27,8 @@ public class MainApplication extends Application implements ReactApplication {
     protected List<ReactPackage> getPackages() {
       return Arrays.<ReactPackage>asList(
           new MainReactPackage(),
+            new RNDeviceInfo(),
+            new OrientationPackage(),
             new RCTBluetoothSerialPackage(),
             new KCKeepAwakePackage()
       );

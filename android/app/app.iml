@@ -117,5 +117,6 @@
     <orderEntry type="library" exported="" name="org.webkit:android-jsc-r174650" level="project" />
     <orderEntry type="module" module-name="react-native-bluetooth-serial" exported="" />
     <orderEntry type="module" module-name="react-native-keep-awake" exported="" />
+    <orderEntry type="module" module-name="react-native-orientation" exported="" />
   </component>
 </module>

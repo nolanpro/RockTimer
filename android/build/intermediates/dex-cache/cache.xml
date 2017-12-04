@@ -3,102 +3,12 @@
 
     <item
         is-multidex="false"
-        jar="/Users/nolan/src/RockTimer/android/app/build/intermediates/exploded-aar/RockTimer/react-native-bluetooth-serial/unspecified/jars/classes.jar"
+        jar="/Users/nolan/src/RockTimer/android/app/build/intermediates/exploded-aar/com.android.support/support-core-ui/25.2.0/jars/classes.jar"
         jumboMode="false"
         optimize="true"
         revision="23.0.1"
-        sha1="2cec0f727ce40c07c63f3310b1974479720c44f9">
-        <dex dex="/Users/nolan/src/RockTimer/android/app/build/intermediates/pre-dexed/debug/RockTimer-react-native-bluetooth-serial-unspecified_2fbe4ade51462bace88063a1afc387881f481337.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/nolan/.gradle/caches/modules-2/files-2.1/com.facebook.fbui.textlayoutbuilder/staticlayout-proxy/1.0/f162442a19fff13995fbd51ba414d9ee05579080/staticlayout-proxy-1.0.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.1"
-        sha1="f162442a19fff13995fbd51ba414d9ee05579080">
-        <dex dex="/Users/nolan/src/RockTimer/android/app/build/intermediates/pre-dexed/debug/staticlayout-proxy-1.0_7be20dd763add2a196c63588bf59723f8a258077.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/nolan/.gradle/caches/modules-2/files-2.1/com.squareup.okio/okio/1.13.0/a9283170b7305c8d92d25aff02a6ab7e45d06cbe/okio-1.13.0.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.1"
-        sha1="a9283170b7305c8d92d25aff02a6ab7e45d06cbe">
-        <dex dex="/Users/nolan/src/RockTimer/android/app/build/intermediates/pre-dexed/debug/okio-1.13.0_98db9c7b4da2e36de6c50707ffc5bcf35c4cc0d9.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/nolan/.gradle/caches/modules-2/files-2.1/com.google.code.findbugs/jsr305/3.0.0/5871fb60dc68d67da54a663c3fd636a10a532948/jsr305-3.0.0.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.1"
-        sha1="5871fb60dc68d67da54a663c3fd636a10a532948">
-        <dex dex="/Users/nolan/src/RockTimer/android/app/build/intermediates/pre-dexed/debug/jsr305-3.0.0_379709a1f439095799ee0b12fd44224b1bd07150.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/nolan/src/RockTimer/android/app/build/intermediates/exploded-aar/com.facebook.soloader/soloader/0.1.0/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.1"
-        sha1="8f615bca00639150c9eb6175d4b5471193f70794">
-        <dex dex="/Users/nolan/src/RockTimer/android/app/build/intermediates/pre-dexed/debug/com.facebook.soloader-soloader-0.1.0_9071a565bc9eb1ebe46291f53ec54308fdd331ee.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/nolan/src/RockTimer/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.1"
-        sha1="d86429b0f0b3f3cafbeb78dda1b9d89119ccb05d">
-        <dex dex="/Users/nolan/src/RockTimer/android/app/build/intermediates/pre-dexed/debug/com.android.support-appcompat-v7-23.0.1_3588ffc7254fcc11ce152735e14055af7fc0ee21.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/nolan/src/RockTimer/android/app/build/intermediates/exploded-aar/com.facebook.fresco/imagepipeline-base/1.3.0/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.1"
-        sha1="72128af126ddd7d6252da9357fe560d3abcdfb0c">
-        <dex dex="/Users/nolan/src/RockTimer/android/app/build/intermediates/pre-dexed/debug/com.facebook.fresco-imagepipeline-base-1.3.0_7e260f859d57ce89ade26f2591253c56a151ebb6.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/nolan/src/RockTimer/android/app/build/intermediates/exploded-aar/com.facebook.fresco/fbcore/1.3.0/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.1"
-        sha1="37345de2ed2772f385eaeec37a9c2ff0fea99ad7">
-        <dex dex="/Users/nolan/src/RockTimer/android/app/build/intermediates/pre-dexed/debug/com.facebook.fresco-fbcore-1.3.0_b1d05550e1c2912b1bd218af72953703f9ec6e3a.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/nolan/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/23.0.1/support-annotations-23.0.1.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.1"
-        sha1="1fce89a6428c51467090d7f424e4c9c3dbd55f7e">
-        <dex dex="/Users/nolan/src/RockTimer/android/app/build/intermediates/pre-dexed/debug/support-annotations-23.0.1_60cba1c7f115bec7d891b7b306efe17e4e73d83a.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/nolan/src/RockTimer/android/app/build/intermediates/exploded-aar/com.facebook.fbui.textlayoutbuilder/textlayoutbuilder/1.0.0/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.1"
-        sha1="f90b593491e4044903f0bbf68dc3fa2790b151b9">
-        <dex dex="/Users/nolan/src/RockTimer/android/app/build/intermediates/pre-dexed/debug/com.facebook.fbui.textlayoutbuilder-textlayoutbuilder-1.0.0_e866c808aa4464136329c4fc8d1090bf0fab244b.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/nolan/src/RockTimer/android/app/build/intermediates/exploded-aar/com.facebook.react/react-native/0.50.3/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.1"
-        sha1="24303e5ddb2c1210dd7e8db9dbab018f50313e48">
-        <dex dex="/Users/nolan/src/RockTimer/android/app/build/intermediates/pre-dexed/debug/com.facebook.react-react-native-0.50.3_50124c68f31c834e2795941185ae177a8fa2efb6.jar" />
+        sha1="fa0446a14ed5dd3725047d6399ffea771a564b30">
+        <dex dex="/Users/nolan/src/RockTimer/android/app/build/intermediates/pre-dexed/debug/com.android.support-support-core-ui-25.2.0_b8aeb0dd1cf75896d5c2868fa14c9a14f8378a1f.jar" />
     </item>
     <item
         is-multidex="false"
@@ -138,6 +48,15 @@
     </item>
     <item
         is-multidex="false"
+        jar="/Users/nolan/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/25.2.0/support-annotations-25.2.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="4a5a82a027706397fff621b22fd6fa796e91d7c5">
+        <dex dex="/Users/nolan/src/RockTimer/android/app/build/intermediates/pre-dexed/debug/support-annotations-25.2.0_a2a56b9b7635799ede44d96a0f9b70eb17f2a918.jar" />
+    </item>
+    <item
+        is-multidex="false"
         jar="/Users/nolan/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp3/okhttp/3.6.0/69edde9fc4b01c9fd51d25b83428837478c27254/okhttp-3.6.0.jar"
         jumboMode="false"
         optimize="true"
@@ -147,12 +66,210 @@
     </item>
     <item
         is-multidex="false"
-        jar="/Users/nolan/src/RockTimer/android/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.0.1/jars/classes.jar"
+        jar="/Users/nolan/src/RockTimer/android/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/25.2.0/jars/classes.jar"
         jumboMode="false"
         optimize="true"
         revision="23.0.1"
-        sha1="c31e21b53ff2f74664e498248d01453a32e32d48">
-        <dex dex="/Users/nolan/src/RockTimer/android/app/build/intermediates/pre-dexed/debug/com.android.support-support-v4-23.0.1_69a559e8af4f38055e00d3a6f37aa45998a1bccf.jar" />
+        sha1="ee394a892dd21c03a528139c1e8d4e0e1264ac84">
+        <dex dex="/Users/nolan/src/RockTimer/android/app/build/intermediates/pre-dexed/debug/com.android.support-support-media-compat-25.2.0_e2daf270baf5145edc17b02b21b6a6e14a37844b.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/nolan/src/RockTimer/android/app/build/intermediates/exploded-aar/RockTimer/react-native-orientation/unspecified/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="810e79419722bde9111f9931e72a77934a30c33c">
+        <dex dex="/Users/nolan/src/RockTimer/android/app/build/intermediates/pre-dexed/debug/RockTimer-react-native-orientation-unspecified_873b7f129005842dd82096e519541c1af0a1e103.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/nolan/src/RockTimer/android/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/11.0.4/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="70ffe00aaf049893f59d1dad57bd82992faa38ef">
+        <dex dex="/Users/nolan/src/RockTimer/android/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-base-11.0.4_5f7bcb8973a23c7b0c368c74028a362c51fd5893.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/nolan/src/RockTimer/android/app/build/intermediates/exploded-aar/com.android.support/support-fragment/25.2.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="8fe8a8f77d651982ce5e18f6187dc4daf914ac57">
+        <dex dex="/Users/nolan/src/RockTimer/android/app/build/intermediates/pre-dexed/debug/com.android.support-support-fragment-25.2.0_acb07c87da4ee0113ab1b18c50fb9fee15dd1179.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/nolan/src/RockTimer/android/app/build/intermediates/exploded-aar/com.facebook.fresco/drawee/1.3.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="c65a2e39d54023bac3aef64a2f0cff89289c7ff6">
+        <dex dex="/Users/nolan/src/RockTimer/android/app/build/intermediates/pre-dexed/debug/com.facebook.fresco-drawee-1.3.0_015591f465e08c6f7b05b78c310f38b044370c31.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/nolan/src/RockTimer/android/app/build/intermediates/exploded-aar/RockTimer/react-native-keep-awake/unspecified/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="25b4747216a57a7164f8e39248ea3a866b856803">
+        <dex dex="/Users/nolan/src/RockTimer/android/app/build/intermediates/pre-dexed/debug/RockTimer-react-native-keep-awake-unspecified_6e272af9a285284ed0510b7c89eee8e086a810a4.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/nolan/src/RockTimer/android/app/build/intermediates/exploded-aar/com.android.support/support-v4/25.2.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="/Users/nolan/src/RockTimer/android/app/build/intermediates/pre-dexed/debug/com.android.support-support-v4-25.2.0_86471c95f0701607f835b20d1848d1cd3982ae42.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/nolan/src/RockTimer/android/app/build/intermediates/exploded-aar/RockTimer/react-native-bluetooth-serial/unspecified/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="2cec0f727ce40c07c63f3310b1974479720c44f9">
+        <dex dex="/Users/nolan/src/RockTimer/android/app/build/intermediates/pre-dexed/debug/RockTimer-react-native-bluetooth-serial-unspecified_2fbe4ade51462bace88063a1afc387881f481337.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/nolan/.gradle/caches/modules-2/files-2.1/com.facebook.fbui.textlayoutbuilder/staticlayout-proxy/1.0/f162442a19fff13995fbd51ba414d9ee05579080/staticlayout-proxy-1.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="f162442a19fff13995fbd51ba414d9ee05579080">
+        <dex dex="/Users/nolan/src/RockTimer/android/app/build/intermediates/pre-dexed/debug/staticlayout-proxy-1.0_7be20dd763add2a196c63588bf59723f8a258077.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/nolan/src/RockTimer/android/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-gcm/11.0.4/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="d8942ee348aaa9341f08f7e2437063893fe27542">
+        <dex dex="/Users/nolan/src/RockTimer/android/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-gcm-11.0.4_f98f668330d8683e1fc744b5b0a17f3d8454ca90.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/nolan/src/RockTimer/android/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-tasks/11.0.4/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="2430e711762a749feb00b3d64858ca4768251b9d">
+        <dex dex="/Users/nolan/src/RockTimer/android/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-tasks-11.0.4_df97d69f5bd88f465e0bea7931bb030fe4028b93.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/nolan/.gradle/caches/modules-2/files-2.1/com.squareup.okio/okio/1.13.0/a9283170b7305c8d92d25aff02a6ab7e45d06cbe/okio-1.13.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="a9283170b7305c8d92d25aff02a6ab7e45d06cbe">
+        <dex dex="/Users/nolan/src/RockTimer/android/app/build/intermediates/pre-dexed/debug/okio-1.13.0_98db9c7b4da2e36de6c50707ffc5bcf35c4cc0d9.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/nolan/.gradle/caches/modules-2/files-2.1/com.google.code.findbugs/jsr305/3.0.0/5871fb60dc68d67da54a663c3fd636a10a532948/jsr305-3.0.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="5871fb60dc68d67da54a663c3fd636a10a532948">
+        <dex dex="/Users/nolan/src/RockTimer/android/app/build/intermediates/pre-dexed/debug/jsr305-3.0.0_379709a1f439095799ee0b12fd44224b1bd07150.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/nolan/src/RockTimer/android/app/build/intermediates/exploded-aar/RockTimer/react-native-device-info/unspecified/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="98038972359c20a48b4be81013c1ae698370fd31">
+        <dex dex="/Users/nolan/src/RockTimer/android/app/build/intermediates/pre-dexed/debug/RockTimer-react-native-device-info-unspecified_57c08db0a509167b58fc1b2c5a7d70b9e858bed4.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/nolan/src/RockTimer/android/app/build/intermediates/exploded-aar/com.facebook.soloader/soloader/0.1.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="8f615bca00639150c9eb6175d4b5471193f70794">
+        <dex dex="/Users/nolan/src/RockTimer/android/app/build/intermediates/pre-dexed/debug/com.facebook.soloader-soloader-0.1.0_9071a565bc9eb1ebe46291f53ec54308fdd331ee.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/nolan/src/RockTimer/android/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/11.0.4/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="364364bf77b4a71afc5930fc3ae57b3f0eea637c">
+        <dex dex="/Users/nolan/src/RockTimer/android/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-basement-11.0.4_115b8ce2f3c1ae1e64fed79477b5efa2386a1e34.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/nolan/src/RockTimer/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="d86429b0f0b3f3cafbeb78dda1b9d89119ccb05d">
+        <dex dex="/Users/nolan/src/RockTimer/android/app/build/intermediates/pre-dexed/debug/com.android.support-appcompat-v7-23.0.1_3588ffc7254fcc11ce152735e14055af7fc0ee21.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/nolan/src/RockTimer/android/app/build/intermediates/exploded-aar/com.facebook.fresco/imagepipeline-base/1.3.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="72128af126ddd7d6252da9357fe560d3abcdfb0c">
+        <dex dex="/Users/nolan/src/RockTimer/android/app/build/intermediates/pre-dexed/debug/com.facebook.fresco-imagepipeline-base-1.3.0_7e260f859d57ce89ade26f2591253c56a151ebb6.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/nolan/src/RockTimer/android/app/build/intermediates/exploded-aar/com.facebook.fresco/fbcore/1.3.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="37345de2ed2772f385eaeec37a9c2ff0fea99ad7">
+        <dex dex="/Users/nolan/src/RockTimer/android/app/build/intermediates/pre-dexed/debug/com.facebook.fresco-fbcore-1.3.0_b1d05550e1c2912b1bd218af72953703f9ec6e3a.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/nolan/src/RockTimer/android/app/build/intermediates/exploded-aar/com.facebook.fbui.textlayoutbuilder/textlayoutbuilder/1.0.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="f90b593491e4044903f0bbf68dc3fa2790b151b9">
+        <dex dex="/Users/nolan/src/RockTimer/android/app/build/intermediates/pre-dexed/debug/com.facebook.fbui.textlayoutbuilder-textlayoutbuilder-1.0.0_e866c808aa4464136329c4fc8d1090bf0fab244b.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/nolan/src/RockTimer/android/app/build/intermediates/exploded-aar/com.android.support/support-compat/25.2.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="67eb33110dbacb46a48175b08ae0c96761d2c17d">
+        <dex dex="/Users/nolan/src/RockTimer/android/app/build/intermediates/pre-dexed/debug/com.android.support-support-compat-25.2.0_3d764cc467c0afe516cba47c019fee121bc57666.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/nolan/src/RockTimer/android/app/build/intermediates/exploded-aar/com.facebook.react/react-native/0.50.3/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="24303e5ddb2c1210dd7e8db9dbab018f50313e48">
+        <dex dex="/Users/nolan/src/RockTimer/android/app/build/intermediates/pre-dexed/debug/com.facebook.react-react-native-0.50.3_50124c68f31c834e2795941185ae177a8fa2efb6.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/nolan/src/RockTimer/android/app/build/intermediates/exploded-aar/com.android.support/support-core-utils/25.2.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="e820b7be8c035dd522da4bc822e8a76c8e27921a">
+        <dex dex="/Users/nolan/src/RockTimer/android/app/build/intermediates/pre-dexed/debug/com.android.support-support-core-utils-25.2.0_ee97fe5b07e44955fa42dd58b96b9e5385999af6.jar" />
     </item>
     <item
         is-multidex="false"
@@ -183,30 +300,12 @@
     </item>
     <item
         is-multidex="false"
-        jar="/Users/nolan/src/RockTimer/android/app/build/intermediates/exploded-aar/com.facebook.fresco/drawee/1.3.0/jars/classes.jar"
+        jar="/Users/nolan/src/RockTimer/android/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-iid/11.0.4/jars/classes.jar"
         jumboMode="false"
         optimize="true"
         revision="23.0.1"
-        sha1="c65a2e39d54023bac3aef64a2f0cff89289c7ff6">
-        <dex dex="/Users/nolan/src/RockTimer/android/app/build/intermediates/pre-dexed/debug/com.facebook.fresco-drawee-1.3.0_015591f465e08c6f7b05b78c310f38b044370c31.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/nolan/src/RockTimer/android/app/build/intermediates/exploded-aar/RockTimer/react-native-keep-awake/unspecified/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.1"
-        sha1="25b4747216a57a7164f8e39248ea3a866b856803">
-        <dex dex="/Users/nolan/src/RockTimer/android/app/build/intermediates/pre-dexed/debug/RockTimer-react-native-keep-awake-unspecified_6e272af9a285284ed0510b7c89eee8e086a810a4.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/nolan/src/RockTimer/android/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.0.1/jars/libs/internal_impl-23.0.1.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.1"
-        sha1="aa92916125166649d8ad4ba3940c3dd7515596d3">
-        <dex dex="/Users/nolan/src/RockTimer/android/app/build/intermediates/pre-dexed/debug/internal_impl-23.0.1_2af85dcb729955fc9f1b38b530bb37335240b832.jar" />
+        sha1="dd282bdeaa904c59d77e57dedd7e0a241c9b679d">
+        <dex dex="/Users/nolan/src/RockTimer/android/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-iid-11.0.4_3447985bc1009dd8813ec4d89f366863aced0488.jar" />
     </item>
 
 </items>

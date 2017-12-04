@@ -6,8 +6,10 @@
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
       <module fileurl="file://$PROJECT_DIR$/../node_modules/react-native-ble-manager/android/react-native-ble-manager.iml" filepath="$PROJECT_DIR$/../node_modules/react-native-ble-manager/android/react-native-ble-manager.iml" />
       <module fileurl="file://$PROJECT_DIR$/../node_modules/react-native-bluetooth-serial/android/react-native-bluetooth-serial.iml" filepath="$PROJECT_DIR$/../node_modules/react-native-bluetooth-serial/android/react-native-bluetooth-serial.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../node_modules/react-native-bluetooth-serial/android/react-native-bluetooth-serial-react-native-bluetooth-serial.iml" filepath="$PROJECT_DIR$/../node_modules/react-native-bluetooth-serial/android/react-native-bluetooth-serial-react-native-bluetooth-serial.iml" />
       <module fileurl="file://$PROJECT_DIR$/../node_modules/react-native-keep-awake/android/react-native-keep-awake.iml" filepath="$PROJECT_DIR$/../node_modules/react-native-keep-awake/android/react-native-keep-awake.iml" />
-      <module fileurl="file://$PROJECT_DIR$/../node_modules/react-native-keep-awake/android/react-native-keep-awake.iml" filepath="$PROJECT_DIR$/../node_modules/react-native-keep-awake/android/react-native-keep-awake.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../node_modules/react-native-keep-awake/android/react-native-keep-awake-react-native-keep-awake.iml" filepath="$PROJECT_DIR$/../node_modules/react-native-keep-awake/android/react-native-keep-awake-react-native-keep-awake.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../node_modules/react-native-orientation/android/react-native-orientation.iml" filepath="$PROJECT_DIR$/../node_modules/react-native-orientation/android/react-native-orientation.iml" />
     </modules>
   </component>
 </project>
