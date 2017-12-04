@@ -1,8 +1,9 @@
 import React from 'react';
 import { StyleSheet, Text, View, ToastAndroid, Button, Picker, TouchableOpacity, ActivityIndicator } from 'react-native';
+import TimerMixin from 'react-timer-mixin';
+// import { setTimeout } from 'core-js/library/web/timers';
 import KeepAwake from 'react-native-keep-awake';
 import BluetoothSerial from 'react-native-bluetooth-serial'
-import { setTimeout } from 'core-js/library/web/timers';
 import Orientation from 'react-native-orientation';
 import DeviceInfo from 'react-native-device-info';
 
@@ -27,7 +28,7 @@ if (noBT) {
       } else {
         BluetoothSerial._bytes = 0
         firstTrig = true;
-        setTimeout(() => {
+        TimerMixin.setTimeout(() => {
           BluetoothSerial._bytes = 3
         }, 1000)
 
@@ -116,12 +117,12 @@ export default class App extends React.Component {
           }
         });
       }
-      setTimeout(this.checkForData, 100)
+      TimerMixin.setTimeout(this.checkForData, 100)
     })
   }
 
   startResetCountdown() {
-    setTimeout(() => {
+    TimerMixin.setTimeout(() => {
       if (this.state.resettingIn == 0) {
         this.reset()
       } else {
