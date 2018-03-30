@@ -10,42 +10,8 @@ import DeviceInfo from 'react-native-device-info';
 const BTID = "20:16:03:10:75:06";
   
 ////////////
-const noBT = true;
-let firstTrig = false;
+require('./MockBT')
 ////////////
-
-if (noBT) {
-  BluetoothSerial._bytes = 0
-  BluetoothSerial.available = () => {
-    return Promise.resolve(BluetoothSerial._bytes);
-  }
-  BluetoothSerial.readUntilDelimiter = (_) => {
-    return new Promise((resolve) => {
-      if (firstTrig) {
-        BluetoothSerial._bytes = 0
-        resolve("3510")
-
-      } else {
-        BluetoothSerial._bytes = 0
-        firstTrig = true;
-        TimerMixin.setTimeout(() => {
-          BluetoothSerial._bytes = 3
-        }, 1000)
-
-        resolve("FirstTrigger")
-      }
-    })
-  }
-  BluetoothSerial.write = (data) => {
-    BluetoothSerial._bytes = 3
-    console.log("WRITING", data)
-    console.log("BY", BluetoothSerial._bytes);
-    return Promise.resolve("OK")
-  }
-  BluetoothSerial.connect = () => {
-    return Promise.resolve();
-  }
-}
 
 const Btn = ({title, onPress}) =>
   <TouchableOpacity style={styles.button} onPress={onPress}>
@@ -67,13 +33,14 @@ export default class App extends React.Component {
   componentDidMount() {
     // this locks the view to Portrait Mode
     Orientation.lockToLandscape();
+    KeepAwake.activate();
   }
-
 
   doToast(text) {
     this.setState({ status: "Toast: " + text})
     ToastAndroid.show(text, ToastAndroid.SHORT);
   }
+
   status(text) {
     this.setState({ status: text})
   }
@@ -124,7 +91,7 @@ export default class App extends React.Component {
   startResetCountdown() {
     TimerMixin.setTimeout(() => {
       if (this.state.resettingIn == 0) {
-        this.reset()
+        this.reset() // works in this scope????????
       } else {
         console.log("Setting new resetting in to: ", this.state.resettingIn - 1)
         this.setState({ resettingIn: parseInt(this.state.resettingIn) - 1 })
@@ -167,7 +134,6 @@ export default class App extends React.Component {
     return (
       <View style={styles.container}>
         <Text>Starting point MAC3</Text>
-        <KeepAwake />
         <View style={styles.btncontainer}>
           <Picker style={styles.picker}
             selectedValue={this.state.timer}
@@ -177,10 +143,6 @@ export default class App extends React.Component {
             <Picker.Item label="25s" value="25" />
             <Picker.Item label="35s" value="35" />
           </Picker>
-          {/* <Btn
-            onPress={this.connect}
-            title={this.state.timer + "s"}
-          /> */}
           <Btn
             onPress={this.connect}
             title="Connect"
